@@ -1,4 +1,13 @@
-Szenarios:
+################################
+Protocol: Session 01_Task1
+Date: 10.05.2016
+Time: 09:00 - 16:00
+Topic: Analyzing Show Times videos
+################################
+
+################################
+Szenarios
+################################
 1.) Big Bang Theory
 Using Computer to switch light on/off
 Control rc cars by computer
@@ -8,7 +17,9 @@ Turn buildings in living networks => some intellligence?
 Solutions adapts easily to the needs of the user/building
 Indoor navigation combined with lighting
 
-Technologies:
+################################
+Technologies
+################################
 1.) public remote access, access control, remote control light and cars, entertaining with music
 2.) Smart city, standardized interfaces, flexible space, flexible transportation, dynamic security, energy management system
 open door concepts, personalized assistance, evacuation assistance, detect flows of people by pressure sensors on the floor,
@@ -18,7 +29,9 @@ BYOD => bring you own device => people going with own mobile phone
 automated parking, mobile devices, smart elevators
 one central spot of control => privacy?
 
-Feasability:
+################################
+Feasability
+################################
 What might be doable?
 1.) Everything, time critical things are might not doable yet
 2.) Many technologies are already available (energy efficiency, smart grids, energy management system, ..)
@@ -31,6 +44,8 @@ When?
 1.) Now
 2.) Near future
 
-Weirdness/crazyness:
+################################
+Weirdness/crazyness
+################################
 1.) Crazy
 2.) Innovative
