@@ -60,7 +60,9 @@ raspi-config
 ```
 and select the first option.
 
-During configuring Ms. Norbisrath realized that the connection from the rapsberry to the PIN-Board was wrong so the connection did not work.
+During configuring Ms. Norbisrath realized that the connection from the rapsberry to the breadboard was wrong so the connection did not work. The following picture is documenting the right setting:
+
+![Image of raspberry with the right breadboard setting available at http://madner.eu/mcm/pics/01_02_BreadBoard.jpg](http://madner.eu/mcm/pics/01_02_BreadBoard.jpg "BreadBoard")
 
 **Hint:**
 *Red line must be up (south)*
@@ -77,7 +79,7 @@ gpio mode 0 out
 gpio write 0 1
 ```
 
-## 5. Seeting up E_Mail notifier
+## 5. Seeting up E-Mail notifier
 
 I foollowed the instructions on:
 https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/prepare-python
