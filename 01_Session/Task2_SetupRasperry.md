@@ -81,7 +81,7 @@ gpio write 0 1
 
 ## 5. Seeting up E-Mail notifier
 
-I foollowed the instructions on:
+I followed the instructions on:
 https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/prepare-python
 
 While installing I got an error so I used the following command to avoid errors:
