@@ -32,7 +32,7 @@ mosquitto_sub -h localhost -t mqtt_test
 mosquitto_pub -h localhost -t mqtt_test -m "Hello mqtt"
 ```
 ## 3. Security
-To ensure that only registered clients are allowed to publish/subscribe we need to set up some security. The easiest method is by doing it with a certificate.
+To ensure that only registered clients are allowed to publish/subscribe we need to set up some security. The easiest method is by doing it username and password or with a certificate.
 
 The following commands need to be used:
 ```
@@ -40,7 +40,7 @@ The following commands need to be used:
 /authenticate
 ```
 
-See the manual page for more mosquitto security settings.
+See the manual page for more mosquitto security settings(<http://mosquitto.org/man/mosquitto-conf-5.html>)
 
 ## 4. Python
 To use mqtt with python there is an easy to use library called **PAHO**. It can be found at <http://www.eclipse.org/paho/>
