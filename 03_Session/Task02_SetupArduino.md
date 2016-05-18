@@ -9,13 +9,8 @@ First we installed *Arduino UI* to have an easier navigation. Arduino itself has
 
 After that we installed *EspressoLite* following the tutorial at <http://beta.espressolite.com> for setting up
 
-Another good source is available at github. 
+Another good source is available at github (*github esp8266 arduino*)
 
-github esp8266 arduino
-
-put it in settings additional boards manager URLs
-
-go to serial button
 ## 2. Flashing
 The procedure to flash new data on the *Arudino* is the following
 ```
