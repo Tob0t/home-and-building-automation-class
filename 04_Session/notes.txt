@@ -1,0 +1,40 @@
+sudo dpkg -i atom.deb
+
+for testing
+dmesg
+
+or
+sudo useradd -G dialout <username>
+
+edit file
+/etc/group
+
+look for dialout:x:20:<your_username>
+
+logout and login again
+
+check if dialout is there 
+groups
+
+make mqtt running on esp:
+
+Using arduino IDE
+File->Examples->PubSubClient->mqtt_esp8266
+
+if not there
+Library Manager pubsub install
+For that you need to install the boards and boardmanager
+
+Save As -> tmp -> new folder 
+
+move it to tmp/mqtt-es-test/src/mqtt_esp8266.ino to open it by platformio
+Platform IO
+Open Project folder
+import
+Wemos d1-mini
+
+Atom
+Initialize->choose board->WeMos D1 Rs & Mini->Initialize
+
+if no pio
+pio lib install 89

@@ -24,4 +24,4 @@ Then you can execute the starscript.
    
     cd ./start.sh
 
-After that you can go to the website to check if openhab is running http://192.168.0.101:8080/openhab.app?sitemap=demo
+After that you can go to the website to check if openhab is running http://192.168.3.19:8080/openhab.app?sitemap=demo

@@ -1,0 +1,22 @@
+sitemap home label="Home"
+{
+ //------------------------------------------------------------------------
+ // Raspberry Pi
+ // GPIO
+ //------------------------------------------------------------------------
+ Frame label="Rasperry Pi GPIO"
+ {
+   Switch item=RaspiLED1
+   Switch item=RaspiLED2
+ }
+ Frame label="Central Switch"
+{
+    Switch item=Central
+    Switch item=MyButton
+}
+Frame label="Timer LED"
+{
+    Switch item=LedTimer
+}
+}
+

@@ -1,0 +1,9 @@
+//------------------------------------------------------------------------
+// Raspberry Pi
+// GPIO
+//------------------------------------------------------------------------
+Switch RaspiLED1 (Central){ gpio="pin:18" }
+Switch RaspiLED2 (Central){ gpio="pin:23" }
+Group Central
+Contact MyButton {gpio="pin:25 activelow:yes force:yes"}
+Switch LedTimer "LED Timer" {gpio="pin:12 force:yes"}
