@@ -18,7 +18,7 @@ This tells that I’m using a ‘switch’ (on/off) item named *RaspiLED1* and *
 A detailed explanation of all the items can be found at <https://github.com/openhab/openhab/wiki/Explanation-of-items>.
 
 ### Sitemap file
-Then you need to define the sitemap. For that you need to create a file in the following folder: ``` /opt/openhab/configurations/sitemaps/home.sitemapss``` and define the structure of the sitemap.
+Then you need to define the sitemap. For that you need to create a file in the following folder: ``` /opt/openhab/configurations/sitemaps/home.sitemaps``` and define the structure of the sitemap.
         
     sitemap home label="Home"{
         Frame label="Rasperry Pi GPIO"{
@@ -75,7 +75,7 @@ Then we define the following rule:
         ]
     end 
 
-**Hint*: To use that example you need to import `org.openhab.model.script.actions.Timer`
+**Hint**: To use that example you need to import `org.openhab.model.script.actions.Timer`
 
 This rule is listening to the event that the LED is turned on and than creates a timer which is turning off the led after 5 seconds.
 
