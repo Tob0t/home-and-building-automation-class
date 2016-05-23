@@ -35,7 +35,7 @@ This is basically defining the structure and the appearance of the controls.
 ## 2. Using hardware button
 In the second exercise there needs to be a hardware button used to control the lights.
 For that you need to make the right setup what is best described in the following picture:
-![Image of raspberry with the right setting for a switch at <http://madner.eu/mcm/pics/05_01_SetupButton.jpg.jpg>](http://madner.eu/mcm/pics/05_01_SetupButton.jpg.jpg "Setup Button")
+![Image of raspberry with the right setting for a switch at <http://madner.eu/mcm/pics/05_01_SetupButton.jpg>](http://madner.eu/mcm/pics/05_01_SetupButton.jpg "Setup Button")
 
 Then you need to define an input device with the following command
 
