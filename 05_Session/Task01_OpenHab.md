@@ -52,10 +52,9 @@ Furthermore we need to add a rule that triggers the LED change:
     end
 
 After the first try the trigger did not work. Following the bugreport of <https://community.openhab.org/t/raspian-jessie-gpio-input/3448/27> and installing 2 new gpio jars I got the trigger result.
-- org.openhab.io.gpio-1.9.0.jar
-- org.openhab.binding.gpio-1.9.0.jar
-
-
+    
+    -    org.openhab.io.gpio-1.9.0.jar
+    -    org.openhab.binding.gpio-1.9.0.jar
 
 ## 3. Setting up Timer
 For setting up we need to define first a new item:
