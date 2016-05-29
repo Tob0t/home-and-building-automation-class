@@ -52,6 +52,6 @@ With a basic setup we can control the lights:
 
 
 ## Sources
-<https://github.com/openhab/openhab/wiki/Hue-Binding>
-<http://www.makeuseof.com/tag/getting-started-openhab-home-automation-raspberry-pi/>
-<http://www.developers.meethue.com/documentation/getting-started>
+- <https://github.com/openhab/openhab/wiki/Hue-Binding>
+- <http://www.makeuseof.com/tag/getting-started-openhab-home-automation-raspberry-pi/>
+- <http://www.developers.meethue.com/documentation/getting-started>

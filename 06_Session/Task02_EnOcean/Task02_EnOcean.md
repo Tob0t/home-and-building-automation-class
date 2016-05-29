@@ -71,5 +71,5 @@ For triggering the button a rule needs to be defined in ```rules/led.rules```:
 		
 		
 ## Sources
-<https://github.com/openhab/openhab/wiki/EnOcean-Binding>
-<https://www.element14.com/community/community/design-challenges/forget-me-not/blog/2014/08/10/ip-post-5-tutorial-for-interfacing-openhab-with-enocean-pi>
+- <https://github.com/openhab/openhab/wiki/EnOcean-Binding>
+- <https://www.element14.com/community/community/design-challenges/forget-me-not/blog/2014/08/10/ip-post-5-tutorial-for-interfacing-openhab-with-enocean-pi>
