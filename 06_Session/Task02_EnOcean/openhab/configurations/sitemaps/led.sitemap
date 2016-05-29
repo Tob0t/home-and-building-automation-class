@@ -1,0 +1,14 @@
+sitemap blink label="LEDs"
+{
+	Frame label="Raspberry Pi GPIO"
+	{
+		Switch item=LedRed
+		Switch item=LedYellow
+		Switch item=AllLeds
+	}
+
+	Frame label="Enocean"
+	{
+		Text item=Temperature valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+	}
+}

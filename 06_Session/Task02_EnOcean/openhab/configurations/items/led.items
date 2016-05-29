@@ -1,0 +1,8 @@
+Switch LedRed "Red LED" (AllLeds) { gpio="pin:23" }
+Switch LedYellow "Yellow LED" (AllLeds) { gpio="pin:18" }
+Group:Switch:OR(ON,OFF) AllLeds "All LEDs"
+
+Contact Button1 "Simple Push Button" { gpio="pin:25 debounce:10 activelow:yes" }
+
+Switch Enocean {enocean="{id=00:29:89:31, eep=F6:02:01}"}
+Number Temperature "Temperature [%.1f °C]" <temperature> {enocean="{id=01:81:B8:91, eep=A5:02:05, parameter=TEMPERATURE}"}

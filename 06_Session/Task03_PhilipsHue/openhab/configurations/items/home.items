@@ -1,0 +1,13 @@
+//------------------------------------------------------------------------
+// Raspberry Pi
+// GPIO
+//------------------------------------------------------------------------
+Group Office
+
+Switch RaspiLED1 (Central){ gpio="pin:18" }
+Switch RaspiLED2 (Central){ gpio="pin:23" }
+Group Central
+Contact MyButton {gpio="pin:25 activelow:yes force:yes"}
+Switch LedTimer "LED Timer" {gpio="pin:12 force:yes"}
+Switch LightBulb1 "Light Bulb 1" <hue> (Office) {hue="10"}
+Color LightBulb2 "Color Bulb 2" <hue> (Office) {hue="11"}

@@ -38,3 +38,7 @@ Initialize->choose board->WeMos D1 Rs & Mini->Initialize
 
 if no pio
 pio lib install 89
+
+SETUP WIFI:
+http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
+sudo service networking reload

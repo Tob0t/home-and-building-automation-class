@@ -1,0 +1,39 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+rule turn_led_off
+when
+	Item LedRed changed to ON
+then
+	createTimer(now.plusSeconds(1), [|
+		sendCommand(LedRed, OFF)
+	])
+end
+
+rule switch_light
+when
+	Item Button1 changed to CLOSED
+then
+	if (LedYellow.state == OFF) {
+		sendCommand(LedYellow, ON)
+		sendCommand(LedRed, ON)
+	} else {
+		sendCommand(LedYellow, OFF)
+		// red led turns off automatically
+	}
+end
+
+rule switch_light_on_with_enocean
+when
+	Item Enocean received command ON
+then
+	if (LedYellow.state == OFF) sendCommand(LedYellow, ON)
+end
+
+rule switch_light_off_with_enocean
+when
+        Item Enocean received command OFF
+then
+        if (LedYellow.state == ON) sendCommand(LedYellow, OFF)
+end
