@@ -39,6 +39,7 @@ To achieve that you need to edit first the ```items/led.items``` file.
     Number Temperature "Temperature [%.1f °C]" <temperature> {enocean="{id=01:81:B8:91, eep=A5:02:05, parameter=TEMPERATURE}"}
     
 Following things need to be considered:
+
 - ID: The device ID, printed on the device or found by debugging
 - EEP: Enocean Equipment Protocol, what kind of protocol to use depending on the kind of device (<https://github.com/openhab/openhab/wiki/EnOcean-Binding>)
 
